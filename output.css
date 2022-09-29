@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(190, 228, 241);
+  background-color: rgb(191, 247, 247);
 }
 
 nav {
@@ -13,6 +13,32 @@ nav {
   justify-content: space-around;
   border: 2px solid black;
   padding: 20px;
+}
+
+a {
+  color: rgb(235, 88, 169);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(173, 16, 173);
+}
+
+h1 {
+  color: rgb(235, 88, 169);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+h2 {
+  color: rgb(235, 88, 169);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+p {
+  color: rgb(235, 88, 169);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .Home {
@@ -43,7 +69,7 @@ nav {
 .About {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
   padding: 60px;
   margin: 60px;

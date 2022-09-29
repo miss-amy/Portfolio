@@ -3,8 +3,12 @@
   border: 0px;
 }
 
+$primaryColor: rgb(235, 88, 169);
+$secondaryColor: rgb(173, 16, 173);
+$primaryFont: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 body {
-  background-color: rgb(190, 228, 241)
+  background-color: rgb(191, 247, 247);
 }
 
 nav {
@@ -15,7 +19,33 @@ nav {
   padding: 20px;
 }
 
-.Home {
+a {
+  color: $primaryColor;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $secondaryColor;
+}
+
+h1 {
+  color: $primaryColor;
+  font-family: $primaryFont;
+  font-weight: bolder;
+}
+
+h2 {
+  color: $primaryColor;
+  font-family: $primaryFont;
+  font-weight: bolder;
+}
+
+p {
+  color: $primaryColor;
+  font-family: $primaryFont;
+ }
+
+  .Home {
 padding: 100px;
 margin: 100px;
 display: flex;
@@ -43,7 +73,7 @@ align-items: flex-end;
 .About {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
   padding: 60px;
   margin: 60px;
