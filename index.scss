@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+
+body {
+  background-color: rgb(190, 228, 241)
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid black;
+  padding: 20px;
+  
+}
+
+.Home {
+
+padding: 100px;
+margin: 100px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+
+}
+
+.Skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 60px;
+  margin: 60px;
+  
+}
+
+.Projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 60px;
+  margin: 60px;
+}
+
+.About {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  padding: 60px;
+  margin: 60px;
+}
+
