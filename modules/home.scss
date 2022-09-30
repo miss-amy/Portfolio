@@ -2,7 +2,7 @@
 @use "../partials/typography";
 
 .Home {
-@include flex;
+@include mixins.flex;
 
   &__title {
     color: palette.$primary-color;

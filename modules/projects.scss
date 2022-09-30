@@ -2,7 +2,7 @@
 @use "../partials/typography";
 
 .Projects {
-@include flex;
+@include mixins.flex;
 
   &__Set {
     display: flex;

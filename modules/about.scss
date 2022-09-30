@@ -2,5 +2,5 @@
 @use "../partials/typography";
 
 .About {
-@include flex;
+@include mixins.flex;
 }

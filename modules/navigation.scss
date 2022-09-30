@@ -2,7 +2,7 @@
 @use "../partials/typography";
 
 .navigation {
-@include flex;
+@include mixins.flex;
   border: 2px solid black;
   
 &__link {
