@@ -1,0 +1,10 @@
+@use "../partials/palette";
+@use "../partials/typography";
+
+.Skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 60px;
+  margin: 60px;
+}

@@ -1,0 +1,20 @@
+@use "../partials/palette";
+@use "../partials/typography";
+
+.Home {
+  padding: 100px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end; 
+
+  &__title {
+    color: palette.$primary-color;
+    font-family: typography.$primary-font;
+  }
+  &__subtitle {
+    color: palette.$secondary-color;
+    font-family: typography.$primary-font;
+    }
+}

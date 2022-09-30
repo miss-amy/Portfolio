@@ -1,0 +1,21 @@
+@use "../partials/palette";
+@use "../partials/typography";
+
+.Projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 60px;
+  margin: 60px;
+
+  &__title {
+    color: palette.$secondary-color;
+  }
+
+  &__Set {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+  }
+}
