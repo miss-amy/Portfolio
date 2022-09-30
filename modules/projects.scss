@@ -2,20 +2,16 @@
 @use "../partials/typography";
 
 .Projects {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 60px;
-  margin: 60px;
-
-  &__title {
-    color: palette.$secondary-color;
-  }
+@include flex;
 
   &__Set {
     display: flex;
     flex-direction: column;
     margin: 20px;
     align-items: center;
+  }
+  
+  &__title {
+    color: palette.$secondary-color;
   }
 }

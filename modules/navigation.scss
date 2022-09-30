@@ -1,0 +1,16 @@
+@use "../partials/palette";
+@use "../partials/typography";
+
+.navigation {
+@include flex;
+  border: 2px solid black;
+  
+&__link {
+  color: palette.$primary-color;
+  text-decoration: none;
+ 
+  &__link:hover {
+    color: palette.$secondary-color;
+    }
+  }
+}

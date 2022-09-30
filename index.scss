@@ -4,7 +4,15 @@
 @use "./modules/skills.scss";
 @use "./modules/projects.scss";
 @use "./modules/about.scss";
-@use "./modules/menu.scss";
+@use "./modules/navigation.scss";
+
+@mixin flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 100px;
+  margin: 100px;
+}
 
 * {
   margin: 0px;
@@ -14,16 +22,6 @@
 body {
   background-color: rgb(191, 247, 247);
 }
-
-a {
-  color: palette.$primary-color;
-  text-decoration: none;
-}
-
-a:hover {
-  color: palette.$secondary-color;
-}
-
 
 h2 {
   color: palette.$secondary-color;

@@ -2,12 +2,7 @@
 @use "../partials/typography";
 
 .Home {
-  padding: 100px;
-  margin: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end; 
+@include flex;
 
   &__title {
     color: palette.$primary-color;
@@ -16,5 +11,5 @@
   &__subtitle {
     color: palette.$secondary-color;
     font-family: typography.$primary-font;
-    }
+  }
 }
