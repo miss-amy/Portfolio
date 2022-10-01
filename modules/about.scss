@@ -1,5 +1,6 @@
 @use "../partials/palette";
 @use "../partials/typography";
+@use "../partials/mixins";
 
 .About {
 @include mixins.flex;

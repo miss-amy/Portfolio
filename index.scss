@@ -5,6 +5,7 @@
 @use "./modules/projects.scss";
 @use "./modules/about.scss";
 @use "./modules/navigation.scss";
+@use "./modules/contact.scss";
 @use "./partials/mixins";
 
 * {
@@ -13,12 +14,13 @@
 }
 
 body {
-  background-color: rgb(191, 247, 247);
+  background-color: rgb(145, 238, 230);
 }
 
 h2 {
   color: palette.$secondary-color;
   font-family: typography.$primary-font; 
+  margin: 60px;
 }
 
 p {
@@ -26,6 +28,3 @@ p {
   font-family: typography.$primary-font;
  }
 
-.Contact {
-border: 2px solid black;
-}

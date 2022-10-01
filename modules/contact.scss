@@ -2,7 +2,9 @@
 @use "../partials/typography";
 @use "../partials/mixins";
 
-
-.Skills {
+.Contact {
   @include mixins.flex;
+  &__link {
+    text-decoration: none;
+  }
 }

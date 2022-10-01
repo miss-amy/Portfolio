@@ -1,8 +1,14 @@
 @use "../partials/palette";
 @use "../partials/typography";
+@use "../partials/mixins";
 
 .Home {
-@include mixins.flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 100px;
+  margin: 100px;
 
   &__title {
     color: palette.$primary-color;

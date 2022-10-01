@@ -1,49 +1,13 @@
-* {
-  margin: 0px;
-  border: 0px;
-}
-
-body {
-  background-color: rgb(191, 247, 247);
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  border: 2px solid black;
-  padding: 20px;
-}
-
-a {
-  color: pink;
-  text-decoration: none;
-}
-
-a:hover {
-  color: hotpink;
-}
-
-h2 {
-  color: hotpink;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
-p {
-  color: pink;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
 .Home {
-  padding: 100px;
-  margin: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: flex-end;
+  padding: 100px;
+  margin: 100px;
 }
 .Home__title {
-  color: pink;
+  color: rgb(248, 168, 181);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 .Home__subtitle {
@@ -55,19 +19,16 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 60px;
-  margin: 60px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .Projects {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 60px;
-  margin: 60px;
-}
-.Projects__title {
-  color: hotpink;
+  padding: 20px;
+  margin: 20px;
 }
 .Projects__Set {
   display: flex;
@@ -75,12 +36,61 @@ p {
   margin: 20px;
   align-items: center;
 }
+.Projects__title {
+  color: hotpink;
+}
 
 .About {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-content: center;
-  padding: 60px;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid black;
+}
+.navigation__link {
+  color: rgb(248, 168, 181);
+  text-decoration: none;
+}
+.navigation__link__link:hover {
+  color: hotpink;
+}
+
+.Contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+}
+.Contact__link {
+  text-decoration: none;
+}
+
+* {
+  margin: 0px;
+  border: 0px;
+}
+
+body {
+  background-color: rgb(145, 238, 230);
+}
+
+h2 {
+  color: hotpink;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin: 60px;
+}
+
+p {
+  color: rgb(248, 168, 181);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
