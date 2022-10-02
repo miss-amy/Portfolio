@@ -5,7 +5,7 @@
 .navigation {
   
   @include mixins.flex;
-  border: 2px solid black;
+  border: 2px solid palette.$secondary-color;
 
 &__link {
   color: palette.$primary-color;

@@ -4,7 +4,9 @@
 
 .Contact {
   @include mixins.flex;
+  border: 2px solid palette.$secondary-color;
   &__link {
     text-decoration: none;
+    color: palette.$primary-color;
   }
 }
