@@ -5,9 +5,9 @@
 
 .Projects {
 @include mixins.flex;
-@media only screen and (max-width: mixins.$phone)
+@include mixins.screen-size(mixins.$small, mixins.$medium)
 {
-flex-direction: column;
+ flex-direction: column;
 }
   &__Set {
     display: flex;
@@ -18,5 +18,10 @@ flex-direction: column;
   
   &__title {
     color: palette.$secondary-color;
+  }
+
+  @include mixins.screen-size(mixins.$xsmall, mixins.$small)
+  {
+   flex-direction: column;
   }
 }

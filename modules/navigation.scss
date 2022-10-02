@@ -6,13 +6,10 @@
   
   @include mixins.flex;
   border: 2px solid palette.$secondary-color;
-
+ 
 &__link {
   color: palette.$primary-color;
   text-decoration: none;
- 
-  &__link:hover {
-    color: palette.$secondary-color;
-    }
-  }
+}
+
 }

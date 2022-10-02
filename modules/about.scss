@@ -4,8 +4,18 @@
 
 .About {
 @include mixins.flex;
-@media only screen and (max-width: mixins.$phone)
+@include mixins.screen-size(mixins.$small, mixins.$medium)
 {
-flex-direction: column;
+ flex-direction: column;
+ align-items: center;
+}
+&__img {
+  height: 100%;
+  width: 100%;
+}
+
+@include mixins.screen-size(mixins.$xsmall, mixins.$small)
+{
+ flex-direction: column;
 }
 }

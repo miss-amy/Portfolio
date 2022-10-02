@@ -6,6 +6,15 @@
   margin: 20px;
 }
 
-$phone: 600px;
-$tablet: 768px;
-$laptop: 1200px;
+$xsmall: 0px;
+$small: 600px;
+$medium: 900px;
+$large: 2000px;
+
+@mixin screen-size($min, $max) {
+  @media only screen and (min-width: ($min + 1px)) and (max-width: $max) 
+  {
+      @content;
+  }
+}
+
