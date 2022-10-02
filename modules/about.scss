@@ -4,4 +4,8 @@
 
 .About {
 @include mixins.flex;
+@media only screen and (max-width: mixins.$phone)
+{
+flex-direction: column;
+}
 }

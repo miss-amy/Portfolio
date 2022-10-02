@@ -2,7 +2,10 @@
 @use "../partials/typography";
 @use "../partials/mixins";
 
-
 .Skills {
   @include mixins.flex;
+  @media only screen and (max-width: mixins.$phone)
+  {
+  flex-direction: column;
+  }
 }
