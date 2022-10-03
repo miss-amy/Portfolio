@@ -3,7 +3,11 @@
 @use "../partials/mixins";
 
 .About {
-@include mixins.flex;
+@include mixins.flex; 
+&__para {
+  color: palette.$primary-color;
+  font-family: typography.$primary-font;
+ }
 
 @include mixins.screen-size(mixins.$xsmall, mixins.$small)
 {

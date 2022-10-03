@@ -53,6 +53,10 @@
 .Projects__title {
   color: hotpink;
 }
+.Projects__para {
+  color: rgb(248, 168, 181);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
 @media only screen and (min-width: 1px) and (max-width: 600px) {
   .Projects {
     flex-direction: column;
@@ -75,6 +79,10 @@
   justify-content: space-around;
   padding: 20px;
   margin: 20px;
+}
+.About__para {
+  color: rgb(248, 168, 181);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 @media only screen and (min-width: 1px) and (max-width: 600px) {
   .About {
@@ -161,9 +169,4 @@ h2 {
   color: hotpink;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin: 60px;
-}
-
-p {
-  color: rgb(248, 168, 181);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }

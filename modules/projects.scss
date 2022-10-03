@@ -16,6 +16,12 @@
   color: palette.$secondary-color;
 }
 
+&__para {
+  color: palette.$primary-color;
+  font-family: typography.$primary-font;
+ }
+
+
 @include mixins.screen-size(mixins.$xsmall, mixins.$small)
 {
  flex-direction: column;
