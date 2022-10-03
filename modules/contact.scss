@@ -3,6 +3,7 @@
 @use "../partials/mixins";
 
 .Contact {
+  
   @include mixins.flex;
   border: 2px solid palette.$secondary-color;
   &__link {
@@ -10,4 +11,18 @@
     color: palette.$primary-color;
   }
 
-}
+  @include mixins.screen-size(mixins.$xsmall, mixins.$small)
+  {
+   flex-direction: column;
+  }
+
+  @include mixins.screen-size(mixins.$small, mixins.$medium)
+  {
+  flex-direction: column;
+  }
+
+  @include mixins.screen-size(mixins.$medium, mixins.$large)
+  {
+  flex-direction: row;
+  }
+  }

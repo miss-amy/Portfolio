@@ -4,13 +4,19 @@
 
 .Skills {
   @include mixins.flex;
-  @include mixins.screen-size(mixins.$small, mixins.$medium)
-  {
-   flex-direction: column;
-  }
-
+  
   @include mixins.screen-size(mixins.$xsmall, mixins.$small)
   {
-   flex-direction: column;
+    flex-direction: column;
+  }
+  
+  @include mixins.screen-size(mixins.$small, mixins.$medium)
+  {
+    flex-direction: column;
+  }
+
+  @include mixins.screen-size(mixins.$medium, mixins.$large)
+  {
+    flex-direction: row;
   }
 }

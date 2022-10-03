@@ -21,14 +21,19 @@
   padding: 20px;
   margin: 20px;
 }
+@media only screen and (min-width: 1px) and (max-width: 600px) {
+  .Skills {
+    flex-direction: column;
+  }
+}
 @media only screen and (min-width: 601px) and (max-width: 900px) {
   .Skills {
     flex-direction: column;
   }
 }
-@media only screen and (min-width: 1px) and (max-width: 600px) {
+@media only screen and (min-width: 901px) and (max-width: 2000px) {
   .Skills {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
@@ -38,11 +43,6 @@
   justify-content: space-around;
   padding: 20px;
   margin: 20px;
-}
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-  .Projects {
-    flex-direction: column;
-  }
 }
 .Projects__Set {
   display: flex;
@@ -58,6 +58,16 @@
     flex-direction: column;
   }
 }
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .Projects {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 2000px) {
+  .Projects {
+    flex-direction: row;
+  }
+}
 
 .About {
   display: flex;
@@ -66,19 +76,19 @@
   padding: 20px;
   margin: 20px;
 }
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-  .About {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-.About__img {
-  height: 100%;
-  width: 100%;
-}
 @media only screen and (min-width: 1px) and (max-width: 600px) {
   .About {
     flex-direction: column;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .About {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 2000px) {
+  .About {
+    flex-direction: row;
   }
 }
 
@@ -94,6 +104,21 @@
   color: rgb(248, 168, 181);
   text-decoration: none;
 }
+@media only screen and (min-width: 1px) and (max-width: 600px) {
+  .navigation {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .navigation {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 2000px) {
+  .navigation {
+    flex-direction: row;
+  }
+}
 
 .Contact {
   display: flex;
@@ -106,6 +131,21 @@
 .Contact__link {
   text-decoration: none;
   color: rgb(248, 168, 181);
+}
+@media only screen and (min-width: 1px) and (max-width: 600px) {
+  .Contact {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .Contact {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 2000px) {
+  .Contact {
+    flex-direction: row;
+  }
 }
 
 * {

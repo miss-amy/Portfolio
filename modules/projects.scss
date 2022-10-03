@@ -5,23 +5,30 @@
 
 .Projects {
 @include mixins.flex;
+&__Set {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+}
+
+&__title {
+  color: palette.$secondary-color;
+}
+
+@include mixins.screen-size(mixins.$xsmall, mixins.$small)
+{
+ flex-direction: column;
+}
+
 @include mixins.screen-size(mixins.$small, mixins.$medium)
 {
  flex-direction: column;
 }
-  &__Set {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    align-items: center;
-  }
-  
-  &__title {
-    color: palette.$secondary-color;
-  }
 
-  @include mixins.screen-size(mixins.$xsmall, mixins.$small)
-  {
-   flex-direction: column;
-  }
+@include mixins.screen-size(mixins.$medium, mixins.$large)
+{
+ flex-direction: row;
+}
+
 }
